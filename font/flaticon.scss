@@ -1,0 +1,101 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?fc3c60376161f01d6cf9438506828493") format("truetype"),
+url("./flaticon.woff?fc3c60376161f01d6cf9438506828493") format("woff"),
+url("./flaticon.woff2?fc3c60376161f01d6cf9438506828493") format("woff2"),
+url("./flaticon.eot?fc3c60376161f01d6cf9438506828493#iefix") format("embedded-opentype"),
+url("./flaticon.svg?fc3c60376161f01d6cf9438506828493#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "book": "\f101",
+    "calendar": "\f102",
+    "clipboard": "\f103",
+    "clock": "\f104",
+    "credit-card-payment": "\f105",
+    "envelope": "\f106",
+    "facebook": "\f107",
+    "globe": "\f108",
+    "instagram": "\f109",
+    "maps-and-flags": "\f10a",
+    "mortarboard": "\f10b",
+    "open-book": "\f10c",
+    "quote": "\f10d",
+    "rating": "\f10e",
+    "searching": "\f10f",
+    "skype": "\f110",
+    "teacher": "\f111",
+    "twitter": "\f112",
+    "user": "\f113",
+);
+
+.flaticon-book:before {
+    content: map-get($flaticon-map, "book");
+}
+.flaticon-calendar:before {
+    content: map-get($flaticon-map, "calendar");
+}
+.flaticon-clipboard:before {
+    content: map-get($flaticon-map, "clipboard");
+}
+.flaticon-clock:before {
+    content: map-get($flaticon-map, "clock");
+}
+.flaticon-credit-card-payment:before {
+    content: map-get($flaticon-map, "credit-card-payment");
+}
+.flaticon-envelope:before {
+    content: map-get($flaticon-map, "envelope");
+}
+.flaticon-facebook:before {
+    content: map-get($flaticon-map, "facebook");
+}
+.flaticon-globe:before {
+    content: map-get($flaticon-map, "globe");
+}
+.flaticon-instagram:before {
+    content: map-get($flaticon-map, "instagram");
+}
+.flaticon-maps-and-flags:before {
+    content: map-get($flaticon-map, "maps-and-flags");
+}
+.flaticon-mortarboard:before {
+    content: map-get($flaticon-map, "mortarboard");
+}
+.flaticon-open-book:before {
+    content: map-get($flaticon-map, "open-book");
+}
+.flaticon-quote:before {
+    content: map-get($flaticon-map, "quote");
+}
+.flaticon-rating:before {
+    content: map-get($flaticon-map, "rating");
+}
+.flaticon-searching:before {
+    content: map-get($flaticon-map, "searching");
+}
+.flaticon-skype:before {
+    content: map-get($flaticon-map, "skype");
+}
+.flaticon-teacher:before {
+    content: map-get($flaticon-map, "teacher");
+}
+.flaticon-twitter:before {
+    content: map-get($flaticon-map, "twitter");
+}
+.flaticon-user:before {
+    content: map-get($flaticon-map, "user");
+}
